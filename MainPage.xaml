@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EscapeRoom.MainPage">
+
+
+    <Grid>
+
+        <Image
+   x:Name="Room"
+IsVisible="False"
+Source="room1.png"
+WidthRequest="1000"
+Aspect="AspectFit"
+HorizontalOptions="FillAndExpand" 
+VerticalOptions="FillAndExpand"
+BackgroundColor="DodgerBlue"/>
+        <Image
+   x:Name="Win"
+IsVisible="False"
+Source="you_win.png"
+WidthRequest="1000"
+Aspect="AspectFit"
+HorizontalOptions="FillAndExpand" 
+VerticalOptions="FillAndExpand"
+BackgroundColor="DodgerBlue"/>
+        <Image
+      x:Name="EscapeRoom"
+      IsVisible="True"
+      Source="start.png"
+      Aspect="AspectFit"
+      HorizontalOptions="FillAndExpand" 
+      VerticalOptions="FillAndExpand" />
+        <StackLayout x:Name="HeartsLayout" Orientation="Horizontal" HorizontalOptions="Center" 
+        Margin="0, 10, 0, 0"  IsVisible="False" >
+            <Image
+   x:Name="Heart1"
+IsVisible="True"
+Source="heart.png"
+       WidthRequest="60"
+       HeightRequest="60"
+        Margin="0, 0, 10, 0"
+BackgroundColor="Transparent"
+       HorizontalOptions="Center" 
+       VerticalOptions="Start" />
+            <Image
+   x:Name="Heart2"
+IsVisible="True"
+Source="heart.png"
+       WidthRequest="60"
+       HeightRequest="60"
+        Margin="0, 0, 10, 0"
+       HorizontalOptions="Center" 
+       VerticalOptions="Start"
+BackgroundColor="Transparent"/>
+            <Image
+   x:Name="Heart3"
+IsVisible="True"
+Source="heart.png"
+       WidthRequest="60"
+       HeightRequest="60"
+       HorizontalOptions="Center" 
+       VerticalOptions="Start"
+        Margin="0, 0, 10, 0"
+BackgroundColor="Transparent"/>
+
+        </StackLayout>
+        <Image
+      x:Name="Lose"
+      IsVisible="False"
+      Source="you_lose.png"
+      Aspect="AspectFit"
+      HorizontalOptions="FillAndExpand" 
+      VerticalOptions="FillAndExpand" />
+        <Image
+            x:Name="Final"
+            IsVisible="False"
+            Source="room.png"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand" />
+        <Label
+            x:Name="HeartLabel"
+            IsVisible="False"
+            Text="Heart 3"
+            Style="{StaticResource Headline}"
+            SemanticProperties.HeadingLevel="Level1"
+            HorizontalOptions="Center" 
+            VerticalOptions="Start" 
+            Margin="0,10" />
+
+        <Button
+            x:Name="Start"
+            Text="Старт"
+            IsVisible="True"
+            WidthRequest="150"
+            HeightRequest="90"
+             Margin="0, 0, 0, 20"
+            FontSize="Large"
+            CornerRadius="10"
+            Clicked="StartBtn"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            TextColor="BlueViolet"
+            BackgroundColor="YellowGreen"/>
+        <Button
+            x:Name="Again"
+            Text="Започни отначало"
+            IsVisible="False"
+            WidthRequest="250"
+            HeightRequest="60"
+             Margin="0, 0, 0, 20"
+            FontSize="Medium"
+            CornerRadius="10"
+            Clicked="AgainBtn"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            TextColor="YellowGreen"
+            BackgroundColor="Purple"/>
+
+        <ImageButton
+            x:Name="Clue1Btn"
+            Source="bin.png"          
+            IsVisible="False"
+            WidthRequest="80"
+            HeightRequest="100"
+            CornerRadius="0"
+            Clicked="OnButtonClicked"
+            HorizontalOptions="Start"
+            VerticalOptions="Center"
+            Margin="530,230, 0,0"
+            BackgroundColor="Transparent"/>
+
+        <ImageButton
+          x:Name="Clue2Btn"
+          Source="sofa.png"
+          IsVisible="False"
+          WidthRequest="200"
+          HeightRequest="200"
+          Clicked="OnButtonClicked2"
+          HorizontalOptions="Start"
+          VerticalOptions="Center"
+          Margin="600,200, 0,0"
+          BackgroundColor="Transparent"/>
+        <ImageButton
+          x:Name="Clue3Btn"
+          Source="clock.png"
+          IsVisible="False"
+          WidthRequest="100"
+          HeightRequest="100"
+          Clicked="OnButtonClicked3"
+          HorizontalOptions="Start"
+          VerticalOptions="Center"
+          Margin="650,0, 0,150"
+          BackgroundColor="Transparent"/>
+        <ImageButton
+          x:Name="Clue4Btn"
+          Source="fridge.png"   
+          IsVisible="False"
+          WidthRequest="400"
+          HeightRequest="280"
+          CornerRadius="0"
+          Clicked="OnButtonClicked4"
+          HorizontalOptions="Start"
+          VerticalOptions="Center"
+          Margin="135,70, 0,0"
+          BackgroundColor="Transparent"/>
+        <ImageButton
+          x:Name="Clue5Btn"
+          Source="bear.png" 
+          IsVisible="False"
+          WidthRequest="150"
+          HeightRequest="150"
+          CornerRadius="0"
+          Clicked="OnButtonClicked5"
+          HorizontalOptions="Start"
+          VerticalOptions="Center"
+          Margin="650,300, 0,0"
+          BackgroundColor="Transparent"/>
+
+
+        <Editor
+            x:Name="Quiz1"
+            Text = "Кое е числото?&#x0a;
+            1, 2, 3 – няма правилно число &#x0a;
+            4, 5, 6 – едно число е правилно и е на мястото си &#x0a;
+            6, 1, 2 – едно число е правилно, но не е на мястото си &#x0a;
+            5, 4, 7 – едно число е правилно, но не е на мястото си &#x0a;
+            8, 4, 9 – едно число е правилно и е на мястото си"
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            WidthRequest="500"
+            HeightRequest="150"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Editor
+            x:Name="Quiz2"
+            Text = "3 кокошки снасят 3 яйца за 3 дни &#x0a;Колко яйца ще снесат 12 кокошки за 12 дни?"
+HorizontalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="LightYellow"
+            TextColor="Black"
+            WidthRequest="300"
+            HeightRequest="90"
+            Margin="0,60,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Editor
+            x:Name="Quiz3"
+            Text = "Петър, Георги и Иван са на разпит, защото един от тях извършил обир.&#x0a;Ето какво казали тримата: &#x0a;Петър: Аз съм невинен.&#x0a;Георги: Аз съм невинен.&#x0a;Иван: Георги е виновен.&#x0a;Само едно от твърденията е истина, кой е извършил обира?"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="White"
+            TextColor="Black"
+            WidthRequest="350"
+            HeightRequest="190"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Editor
+            x:Name="Quiz4"
+            Text = "Колко лъжици трябва да се поставят на масата така че всеки да има по една? седят майка, баща и всичките им деца:
+            3 момчета, които имат по една сестра?"
+HorizontalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="LightGray"
+            TextColor="Black"
+            WidthRequest="300"
+            HeightRequest="100"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Margin="0,80,0,0"/>
+        
+        <Editor
+            x:Name="Quiz5"
+            Text = "Ляфряля ш няцунхля"  
+            FontSize="25"
+            Margin="0,80,0,0"
+            HorizontalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="White"
+            TextColor="Black"
+            WidthRequest="300"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+        <Entry 
+            x:Name="Input1" 
+            Placeholder="_ _ _" 
+            HorizontalTextAlignment="Center"
+            IsVisible="False"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            PlaceholderColor="Black"
+            FontSize="30"
+            WidthRequest="100"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            Margin="0, 0, 0, 100"/>
+        <Entry 
+      x:Name="Input2"    
+      HorizontalTextAlignment="Center"
+      IsVisible="False"
+      BackgroundColor="Orange"
+      TextColor="Black"
+      PlaceholderColor="Black"
+      FontSize="30"
+      WidthRequest="120"
+      HorizontalOptions="Center"
+      VerticalOptions="End"
+      Margin="0, 0, 0, 100"/>
+        <Entry 
+      x:Name="Input3"       
+      HorizontalTextAlignment="Center"
+      IsVisible="False"
+      BackgroundColor="LightGreen"
+      TextColor="Black"
+      PlaceholderColor="Black"
+      FontSize="30"
+      WidthRequest="300"
+      HorizontalOptions="Center"
+      VerticalOptions="End"
+      Margin="0, 0, 0, 100"/>
+        
+        <Entry 
+          x:Name="Input4" 
+          Placeholder="_"       
+          HorizontalTextAlignment="Center"
+          IsVisible="False"
+          BackgroundColor="Orange"
+          TextColor="Black"
+          PlaceholderColor="Black"
+          FontSize="30"
+          WidthRequest="100"
+          HorizontalOptions="Center"
+          VerticalOptions="End"
+          Margin="0, 0, 0, 100"/>
+        
+        <Entry 
+      x:Name="Input5" 
+            Placeholder="_______ _ ________"    
+      HorizontalTextAlignment="Center"
+      IsVisible="False"
+      BackgroundColor="LawnGreen"
+      TextColor="Black"
+      PlaceholderColor="Black"
+      FontSize="30"
+      WidthRequest="400"
+      HorizontalOptions="Center"
+      VerticalOptions="End"
+      Margin="0, 0, 0, 100"/>
+
+        <Button 
+            x:Name="OpenDoor"
+            IsVisible="False"
+            Text="Open Door"
+            FontSize="20"
+            Clicked="OnChangeRoom"
+            HorizontalOptions="Center"
+            VerticalOptions="End"            
+            Margin="0, 0, 0, 20"
+            TextColor="Black"
+            BackgroundColor="DeepSkyBlue"/>
+        <Button 
+             x:Name="OpenDoor2"
+             Margin="0, 0, 0, 20"
+             BackgroundColor="YellowGreen"
+             IsVisible="False"
+             Text="Open Door"
+            FontSize="20"
+             Clicked="OnChangeRoom2"
+             HorizontalOptions="Center"
+             VerticalOptions="End" />
+        
+        <Button 
+             x:Name="OpenDoor3"
+             Margin="0, 0, 0, 20"
+             BackgroundColor="DarkGreen"
+             IsVisible="False"
+             Text="Open Door"
+            FontSize="20"
+             Clicked="OnChangeRoom3"
+             HorizontalOptions="Center"
+             VerticalOptions="End" />
+        <Button 
+             x:Name="OpenDoor4"
+              Margin="0, 0, 0, 20"
+             BackgroundColor="Red"
+             IsVisible="False"
+             Text="Open Door"
+             FontSize="20"
+             Clicked="OnChangeRoom4"
+             HorizontalOptions="Center"
+             VerticalOptions="End" />
+        
+        <Button 
+            x:Name="OpenDoor5"
+            Margin="0, 0, 0, 20"
+            BackgroundColor="DeepPink"
+            IsVisible="False"
+            Text="Open Door"
+            FontSize="20"
+            Clicked="OnChangeRoom5"
+            HorizontalOptions="Center"
+            VerticalOptions="End" />   
+    </Grid>
+</ContentPage>
