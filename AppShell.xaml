@@ -8,7 +8,7 @@
     Title="EscapeRoom">
 
     <ShellContent
-        Title="Home"
+        Title="Escape Room"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

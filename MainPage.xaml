@@ -97,7 +97,7 @@ BackgroundColor="Transparent"/>
              Margin="0, 0, 0, 20"
             FontSize="Large"
             CornerRadius="10"
-            Clicked="StartBtn"
+            Clicked="StartBtnClick"
             HorizontalOptions="Center"
             VerticalOptions="End"
             TextColor="BlueViolet"
@@ -111,7 +111,7 @@ BackgroundColor="Transparent"/>
              Margin="0, 0, 0, 20"
             FontSize="Medium"
             CornerRadius="10"
-            Clicked="AgainBtn"
+            Clicked="AgainBtnClick"
             HorizontalOptions="Center"
             VerticalOptions="End"
             TextColor="YellowGreen"
@@ -124,7 +124,7 @@ BackgroundColor="Transparent"/>
             WidthRequest="80"
             HeightRequest="100"
             CornerRadius="0"
-            Clicked="OnButtonClicked"
+            Clicked="NextRoom"
             HorizontalOptions="Start"
             VerticalOptions="Center"
             Margin="530,230, 0,0"
@@ -136,7 +136,7 @@ BackgroundColor="Transparent"/>
           IsVisible="False"
           WidthRequest="200"
           HeightRequest="200"
-          Clicked="OnButtonClicked2"
+          Clicked="NextRoom2"
           HorizontalOptions="Start"
           VerticalOptions="Center"
           Margin="600,200, 0,0"
@@ -147,7 +147,7 @@ BackgroundColor="Transparent"/>
           IsVisible="False"
           WidthRequest="100"
           HeightRequest="100"
-          Clicked="OnButtonClicked3"
+          Clicked="NextRoom3"
           HorizontalOptions="Start"
           VerticalOptions="Center"
           Margin="650,0, 0,150"
@@ -159,7 +159,7 @@ BackgroundColor="Transparent"/>
           WidthRequest="400"
           HeightRequest="280"
           CornerRadius="0"
-          Clicked="OnButtonClicked4"
+          Clicked="NextRoom4"
           HorizontalOptions="Start"
           VerticalOptions="Center"
           Margin="135,70, 0,0"
@@ -171,7 +171,7 @@ BackgroundColor="Transparent"/>
           WidthRequest="150"
           HeightRequest="150"
           CornerRadius="0"
-          Clicked="OnButtonClicked5"
+          Clicked="NextRoom5"
           HorizontalOptions="Start"
           VerticalOptions="Center"
           Margin="650,300, 0,0"
@@ -247,6 +247,10 @@ HorizontalTextAlignment="Center"
             HorizontalOptions="Center"
             VerticalOptions="Center" />
 
+        
+        
+        
+      
         <Entry 
             x:Name="Input1" 
             Placeholder="_ _ _" 
@@ -365,6 +369,32 @@ HorizontalTextAlignment="Center"
             FontSize="20"
             Clicked="OnChangeRoom5"
             HorizontalOptions="Center"
-            VerticalOptions="End" />   
+            VerticalOptions="End" />
+
+
+
+
+
+
+
+        <Entry 
+x:Name="PlayerName"       
+HorizontalTextAlignment="Center"
+IsVisible="False"
+BackgroundColor="LightGreen"
+TextColor="Black"
+PlaceholderColor="Black"
+FontSize="30"
+WidthRequest="300"
+HorizontalOptions="Center"
+VerticalOptions="End"
+Margin="0, 0, 0, 100"/>
+
+
+
+
+
+
+
     </Grid>
 </ContentPage>

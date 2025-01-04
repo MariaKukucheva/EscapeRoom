@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-02T19:51:42.762</Modified>
+      <Modified>2025-01-03T07:13:35.123</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscapeRoom.dll">
       <PackagePath>EscapeRoom.dll</PackagePath>
-      <Modified>2025-01-02T19:51:41.975</Modified>
+      <Modified>2025-01-03T07:13:34.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EscapeRoom.exe</PackagePath>
-      <Modified>2025-01-02T19:51:42.022</Modified>
+      <Modified>2025-01-03T07:13:34.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -81,261 +81,241 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-12-31T11:12:35.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2025-01-02T19:51:39.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2025-01-02T19:51:39.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2025-01-02T19:51:39.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.519</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room4.scale-100.png">
-      <PackagePath>room4.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-100.png">
-      <PackagePath>clock.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\you_win.scale-100.png">
-      <PackagePath>you_win.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room5.scale-100.png">
-      <PackagePath>room5.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-100.png">
-      <PackagePath>room.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sofa.scale-100.png">
-      <PackagePath>sofa.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bear.scale-100.png">
       <PackagePath>bear.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\start.scale-100.png">
-      <PackagePath>start.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png">
+      <PackagePath>bin.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-100.png">
+      <PackagePath>clock.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fridge.scale-100.png">
+      <PackagePath>fridge.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart.scale-100.png">
       <PackagePath>heart.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.525</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\you_lose.scale-100.png">
-      <PackagePath>you_lose.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\photo.scale-100.png">
       <PackagePath>photo.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fridge.scale-100.png">
-      <PackagePath>fridge.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.526</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-100.png">
+      <PackagePath>room.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bin.scale-100.png">
-      <PackagePath>bin.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.526</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room1.scale-100.png">
+      <PackagePath>room1.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room2.scale-100.png">
       <PackagePath>room2.scale-100.png</PackagePath>
@@ -345,9 +325,29 @@
       <PackagePath>room3.scale-100.png</PackagePath>
       <Modified>2025-01-02T19:51:39.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room1.scale-100.png">
-      <PackagePath>room1.scale-100.png</PackagePath>
-      <Modified>2025-01-02T19:51:39.527</Modified>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room4.scale-100.png">
+      <PackagePath>room4.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room5.scale-100.png">
+      <PackagePath>room5.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sofa.scale-100.png">
+      <PackagePath>sofa.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\start.scale-100.png">
+      <PackagePath>start.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\you_lose.scale-100.png">
+      <PackagePath>you_lose.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\you_win.scale-100.png">
+      <PackagePath>you_win.scale-100.png</PackagePath>
+      <Modified>2025-01-02T19:51:39.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maria\Documents\UniPU\Избираеми\Maui\EscapeRoom\EscapeRoom\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscapeRoom.deps.json">
       <PackagePath>EscapeRoom.deps.json</PackagePath>

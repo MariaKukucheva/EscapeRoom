@@ -3,7 +3,7 @@ namespace EscapeRoom
 {
     public partial class MainPage : ContentPage
     {
-        private int heart = 3;
+        private int heartCounter = 3;
 
         public MainPage()
         {
@@ -12,7 +12,7 @@ namespace EscapeRoom
 
         private void UpdateHeartsVisibility()
         {
-            switch (heart)
+            switch (heartCounter)
             {
                 case 3:
                     Heart1.IsVisible = true;
@@ -40,7 +40,7 @@ namespace EscapeRoom
             }
         }
 
-        private void StartBtn(object sender, EventArgs e)
+        private void StartBtnClick(object sender, EventArgs e)
         {
             UpdateHeartsVisibility();
             HeartsLayout.IsVisible = true;
@@ -51,7 +51,7 @@ namespace EscapeRoom
 
         }
 
-        private void AgainBtn(object sender, EventArgs e)
+        private void AgainBtnClick(object sender, EventArgs e)
         {
             Again.IsVisible = false;
             Room.IsVisible = true;
@@ -61,7 +61,7 @@ namespace EscapeRoom
             EscapeRoom.IsVisible = true;
             Clue1Btn.IsVisible = false; 
             Room.Source = "room1.png";
-            heart = 3;
+            heartCounter = 3;
         }
         private void ToggleVisibility(params VisualElement[] elements)
         {
@@ -71,24 +71,24 @@ namespace EscapeRoom
             }
         }
 
-        private void OnButtonClicked(object sender, EventArgs e)
+        private void NextRoom(object sender, EventArgs e)
         {
             ToggleVisibility(Quiz1, Input1, OpenDoor);
         }
 
-        private void OnButtonClicked2(object sender, EventArgs e)
+        private void NextRoom2(object sender, EventArgs e)
         {
             ToggleVisibility(Quiz2, Input2, OpenDoor2);
         }
-        private void OnButtonClicked3(object sender, EventArgs e)
+        private void NextRoom3(object sender, EventArgs e)
         {
             ToggleVisibility(Quiz3, Input3,OpenDoor3);
         }
-        private void OnButtonClicked4(object sender, EventArgs e)
+        private void NextRoom4(object sender, EventArgs e)
         {
             ToggleVisibility(Quiz4, Input4, OpenDoor4);
         }
-        private void OnButtonClicked5(object sender, EventArgs e)
+        private void NextRoom5(object sender, EventArgs e)
         {
             ToggleVisibility(Quiz5, Input5, OpenDoor5);
         }
@@ -114,10 +114,10 @@ namespace EscapeRoom
             }
             else
             {
-                heart--;
+                heartCounter--;
                 UpdateHeartsVisibility(); 
 
-                if (heart == 0)
+                if (heartCounter == 0)
                 {
                     foreach (var element in elementsToToggle)
                     {
