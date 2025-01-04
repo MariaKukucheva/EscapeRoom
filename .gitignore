@@ -1,0 +1,67 @@
+# Ignore bin and obj directories
+bin/
+obj/
+
+# User-specific files
+*.userprefs
+*.user
+*.csproj.user
+
+# Build directories
+build/
+BuildArtifacts/
+
+# Logs and crash reports
+*.log
+*.tlog
+
+# IDE settings and workspace files
+.vs/
+.idea/
+*.suo
+*.userosscache
+*.userprefs
+*.sln.docstates
+
+# NuGet packages and restore cache
+*.nupkg
+*.nuget/
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Mac-specific files
+*.DS_Store
+
+# Other MAUI-specific exclusions
+wwwroot/
+AppPackages/
+platforms/
+
+# Android specific
+*.apk
+*.ap_
+*.keystore
+
+# iOS specific
+*.ipa
+*.dSYM/
+
+# Windows specific
+*.appx
+*.appxbundle
+*.appxsym
+*.msix
+*.msixbundle
+*.msixupload
+*.uploadlogs/
